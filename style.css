@@ -1,1 +1,155 @@
-index
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #7df9ff;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-family: "Orbitron", sans-serif;
+  font-style: italic;
+  background-image: url(indexAssets/indexBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #7df9ff;
+}
+
+/*
+color: #2df31a;
+  text-shadow: 0 0 20px #2df31a;
+  */
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 15px;
+}
+
+/*****BODY*****/
+
+ul {
+  display: flex;
+  margin: auto;
+  position: relative;
+  width: 600px;
+  height: 350px;
+}
+
+ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background: #000;
+  margin: -5px;
+  transform: rotate(45deg);
+  transition: 0.1s;
+  overflow: hidden;
+  opacity: 1;
+  box-shadow: 0 0 10px #7df9ff;
+}
+
+h4 {
+  font-size: 15px;
+  transform: rotate(-45deg);
+}
+
+/****HOVER****/
+ul li:hover {
+  background-color: black;
+  box-shadow: 0 0 70px #7df9ff;
+}
+
+h4:hover {
+  font-size: 16px;
+  color: #31f5ff;
+}
+
+/****DIAMONDS****/
+ul li.item1 {
+  bottom: 20%;
+  left: 9%;
+}
+
+ul li.item2 {
+  bottom: 20%;
+  left: 41%;
+}
+
+ul li.item3 {
+  bottom: 20%;
+  left: 73%;
+}
+
+ul li.item4 {
+  bottom: 47%;
+  left: 25%;
+}
+
+ul li.item5 {
+  bottom: 47%;
+  left: 57%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  font-size: 10px;
+  text-align: center; 
+  background-color: black;
+  box-shadow: 0 0 10px #7df9ff;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  ul {
+    display: flex;
+    margin: auto;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-top: 45px;
+    margin-left: 10px;
+  }
+  /****DIAMONDS****/
+  ul li.item1 {
+    bottom: 12%;
+    left: 9%;
+  }
+
+  ul li.item2 {
+    bottom: 12%;
+    left: 56%;
+  }
+
+  ul li.item3 {
+    bottom: 36%;
+    left: 32.5%;
+  }
+
+  ul li.item4 {
+    bottom: 59%;
+    left: 9%;
+  }
+
+  ul li.item5 {
+    bottom: 59%;
+    left: 56%;
+  }
+}

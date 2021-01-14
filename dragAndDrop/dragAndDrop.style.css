@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: #7df9ff;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  font-style: italic;
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  margin: 30px 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/****GALAXY CIRCLES****/
+.empty {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 2px 2px rgba(1, 5, 82, 0.5);
+  margin: 15px;
+  border: 3px solid #7df9ff;
+}
+
+.fill {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-image: url(assets/alien.png);
+  position: relative;
+  cursor: pointer;
+}
+
+#background1 {
+  background-image: url(assets/galaxy1.jpg);
+}
+#background2 {
+  background-image: url(assets/galaxy2.jpg);
+}
+#background3 {
+  background-image: url(assets/galaxy3.jpg);
+}
+#background4 {
+  background-image: url(assets/galaxy4.jpg);
+}
+#background5 {
+  background-image: url(assets/galaxy5.jpg);
+}
+
+.flyingAlien {
+  border: 1px solid #0edfea;
+
+}
+
+.invisible {
+  display: none;
+}
+
+.hold {
+  border: ;
+}
+
+.hovered {
+  border: 3px solid #7df9ff;
+  box-shadow: 0px 0px 100px #7df9ff;
+}
+
+/******BOTTOM****/
+.audio {
+  display: flex;
+  margin: auto;
+  width: 250px;
+  height: 25px;
+  box-shadow: 0px 0px 50px #7df9ff;
+  cursor: pointer;
+  margin-top: 75px;
+}
+
+i {
+  position: fixed;
+  left: 0;
+  font-size: 40px;
+  bottom: 35px;
+  margin-left: 17px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  font-size: 10px;
+  text-align: center; 
+  background-color: black;
+  box-shadow: 0 0 10px #7df9ff;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 80px;
+  }
+}
+
+

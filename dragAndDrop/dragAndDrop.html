@@ -3,25 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dragAndDrop.style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e5f08e8b31.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Drag N Drop</title>
   </head>
+  
   <body>
-    
-<section class="container">
-      <div class="empty">
-      <img src="assets/alien.png" class="fill" id="fill" draggable="true" ondragstart="dragStart(event)"></div>
+    <header>
+      <h1>JavaScript Drag and Drop;</h1>
+    </header>
+
+    <section class="container">
+      <div id="background1" class="empty">
+        <div class="fill" draggable="true"></div>
+      </div>
+      <div id="background2" class="empty"></div>
+      <div id="background3" class="empty"></div>
+      <div id="background4" class="empty"></div>
+      <div id="background5" class="empty"></div>
+    </section>
+
+    <audio controls class="audio">
+      <source src="assets/alienSounds.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div>
+      <a href="../index.html"><i class="fas fa-chevron-circle-left"></i></a>
     </div>
-    <div class="empty" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-    <div class="empty"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-    <div class="empty"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-    <div class="empty"ondrop="drop(event)" ondragover="allowDrop(event)"></div>
 
-</section>
-
-
-    
-
+    <footer>
+      <span>Moi 2020</span>
+    </footer>
 
     <script src="script.js"></script>
   </body>
