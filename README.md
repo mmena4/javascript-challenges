@@ -30,11 +30,11 @@ $ git clone https://github.com/mmena4/javascript-challenges.git
 
 ## Built With 🛠️
 
-* ![Html Logo](/indexAssets/html.png)[HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - The to create the index
+* [HTML 5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) - The to create the index
 
-* ![CSS Logo](/indexAssets/css.png = 100x100)[CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS) - Used to generate the style
+* [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS) - Used to generate the style
 
-* ![JavaScript Logo](/indexAssets/javascript.png witdh=100)[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to add the functionality
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to add the functionality
 
 ## Contributing 🖇️
 
