@@ -4,7 +4,7 @@
 This is a repository in progress where I will be adding exercises done using vanilla **JavaScript**. <br>
 In addition, I added extra features as well as a spectacular **CSS** look and field, hope you enjoy it!!
 
-Live preview here: [https://mmena4.github.io/javascript-challenges/](https://mmena4.github.io/javascript-challenges/)
+Live preview here: [https://moisesmena.github.io/javascript-challenges/](https://moisesmena.github.io/javascript-challenges/)
 
 ## What you will find? 🚀
 
