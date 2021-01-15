@@ -16,6 +16,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #7df9ff;
+  background-color: black;
 }
 
 /*
@@ -30,13 +31,13 @@ header {
 }
 
 /*****BODY*****/
-
 ul {
   display: flex;
   margin: auto;
   position: relative;
   width: 600px;
   height: 350px;
+  
 }
 
 ul li {
@@ -125,7 +126,7 @@ footer {
     width: 400px;
     height: 400px;
     margin-top: 45px;
-    margin-left: 10px;
+    margin-left: 45px;
   }
   /****DIAMONDS****/
   ul li.item1 {
